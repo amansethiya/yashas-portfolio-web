@@ -1,0 +1,278 @@
+@font-face {
+    font-family: rosehot;
+    src: url('/fonts/Rosehot.ttf');
+    font-weight: normal;
+}
+
+.header-bg {
+    height: 150px;
+    background-color: rgb(154, 12, 12);
+    width: 100%;
+    position: absolute;
+    z-index: 0;
+    margin-top: -150px;
+
+}
+
+.crosia {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+
+}
+
+.cover {
+    width: 100%;
+    flex-direction: column;
+}
+
+.cover img {
+    width: 100%;
+    max-width: 1440;
+}
+
+
+
+
+.white-sec {
+
+    background-color: white;
+    color: rgb(0, 0, 0);
+    margin-top: -4px;
+}
+
+.sec1 {
+    padding: 120px 150px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sec1img1 {
+    width: 100%;
+}
+
+.sec1p1 {
+    width: 52%;
+    margin-top: 60px;
+    margin-bottom: 120px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.color-group {
+    display: flex;
+    text-align: center;
+    gap: 200px;
+
+}
+
+.color-group img {
+    width: 185px;
+    height: 185px;
+}
+
+.color-group p {
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.sqimg {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.sec2 {
+    display: flex;
+    flex-direction: column;
+    padding: 00px 50px;
+    text-align: center;
+}
+
+.camping-red {
+    font-size: 40px;
+    padding: 80px 0px;
+    text-transform: uppercase;
+
+
+}
+
+.camping-red h1 {
+    font-family: 'rosehot';
+    letter-spacing: -0.06em;
+    font-weight: 100;
+}
+
+.camping-images {
+    display: flex;
+    justify-content: space-between;
+}
+
+.camping-images img {
+    width: 422px;
+    height: 527px;
+}
+
+.typography {
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+}
+
+.typography h1 {
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+.typography h2 {
+    font-size: 32px;
+    font-family: 'rosehot';
+    font-weight: 300;
+
+}
+
+.typography p {
+    font-size: 32px;
+    margin-top: -10px;
+    padding-bottom: 100px;
+    font-family: 'rosehot';
+}
+
+.logomark {
+    display: flex;
+    flex-direction: column;
+}
+
+.logomark h2 {
+    font-size: 32px;
+    text-transform: uppercase;
+    padding-bottom: 50px;
+}
+
+.logomark-images {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.hooks {
+    display: flex;
+    flex-direction: column;
+}
+
+.hooks h2 {
+    font-size: 32px;
+    text-transform: uppercase;
+    padding-bottom: 80px;
+    padding-top: 250px;
+}
+
+.hookimg {
+    width: 575px;
+}
+
+.hookimages {
+    padding: 0px 200px;
+    max-width: 1040px;
+
+}
+
+.hookimages img {
+    padding-top: 50px;
+}
+
+.sec3 {
+    background-color: rgb(245, 234, 220);
+}
+
+.logo-var {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: -4px;
+}
+
+.logo-var h2 {
+    font-size: 32px;
+    text-transform: uppercase;
+    padding-bottom: 80px;
+    padding-top: 50px;
+}
+
+.lv-images {
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
+
+}
+
+.lv-images img {
+    width: 717px;
+    align-self: center;
+
+}
+
+.product-vision {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 200px;
+    padding-top: 220px;
+    text-align: center;
+}
+
+.product-vision h2 {
+    font-size: 60px;
+    color: white;
+    margin-top: -700px;
+    margin-bottom: 700px;
+    font-family: 'rosehot';
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
+.product-vision p {
+    line-height: 154.7%;
+    font-size: 23px;
+    width: 80%;
+    align-self: center;
+    line-height: 154%;
+    font-family: 'rosehot';
+    position: relative;
+    font-weight: 100;
+    z-index: 2;
+
+}
+
+.thankyou {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.thankyou img {
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    margin-top: -310px;
+    z-index: 0;
+    left: 0%;
+
+
+
+
+}
+
+.thankyou h1 {
+    font-size: 120px;
+    color: white;
+    margin-top: 880px;
+    font-family: 'rosehot';
+    font-weight: 100;
+    text-transform: uppercase;
+    line-height: 154%;
+    z-index: 2;
+}

@@ -1,0 +1,88 @@
+.studio {
+    display: flex;
+    margin-top: 140px;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 70px;
+
+}
+
+.studio .arrow {
+    width: 90px;
+    height: 93px;
+}
+
+.studio-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 94%;
+    cursor: pointer;
+    background-color: rgba(65, 64, 64, 0.293);
+    border-radius: 20px;
+
+
+}
+
+.studio-button hr {
+    width: 100%;
+    height: 60px;
+    border-radius: 20px 20px 00px 0px;
+    background-color: #E4E4E4;
+}
+
+.studio-button img {
+    width: 80px;
+    height: 82px;
+    margin-top: -38px;
+    margin-bottom: -40px;
+}
+
+.studio-button h1 {
+    font-size: 70px;
+    letter-spacing: -4px;
+    margin-bottom: 20px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    background-color: rgba(65, 64, 64, 0.293);
+    border-radius: 20px;
+    padding: 0px 40px 40px 40px;
+}
+
+.footer-name {
+    font-size: 44px;
+}
+
+.footer-connect {
+    display: flex;
+}
+
+.footer-connect h2 {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.left-footer {
+    min-width: 50%
+}
+
+.right-footer {
+    min-width: 50%
+}
+
+.social {
+    display: flex;
+    justify-content: left;
+    gap: 15px;
+
+}
+
+.right-footer .social img {
+    max-width: 40px;
+    border-radius: 10px;
+}
