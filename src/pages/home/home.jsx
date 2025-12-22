@@ -21,13 +21,12 @@ const hero = () => {
           </div>
           <div className="hero-right">
             <img src={heroright} alt="" />
-            <Link to="/branding">
-              <p>
-                I’m currently leading design for Vacation Village,
-                <br /> shaping its identity, communication, and full <br />
-                brand experience across digital and print.
-              </p>
-            </Link>
+
+            <p>
+              I’m currently leading design for Vacation Village,
+              <br /> shaping its identity, communication, and full <br />
+              brand experience across digital and print.
+            </p>
           </div>
         </div>
       </div>
