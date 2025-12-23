@@ -5,14 +5,16 @@ import { Link } from "react-router-dom";
 import rightarrow from "../../assets/downarroe.png";
 import Header from "../../component/Header/black_header/header.jsx";
 import back from "../../assets/wback.png";
+import { useNavigate } from "react-router-dom";
 
 const branding = () => {
+  const navigate = useNavigate();
   return (
     <div>
       <Header />
       <div className="back-branding">
-        <a href="/yashas-portfolio-web">
-          <img src={back} alt="" />
+        <a href="/">
+          <img src={back} alt="" onClick={() => navigate(-1)} />
         </a>
         <h1>Branding</h1>
       </div>
