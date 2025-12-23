@@ -8,6 +8,11 @@
     position: relative;
 }
 
+.b-header-link {
+    text-decoration: none;
+    color: white;
+}
+
 .logo {
     display: flex;
     align-items: center;

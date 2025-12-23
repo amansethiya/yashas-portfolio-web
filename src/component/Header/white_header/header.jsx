@@ -5,13 +5,11 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <div className="white-header">
-      <div className="logo">
-        <Link to="/">
-          <img src={logo} alt="Logo" />
-          <h3>One Eyed Designer</h3>
-        </Link>
-      </div>
+    <div className="header">
+      <Link to="/" className="logo w-header-link">
+        <img src={logo} alt="Logo" />
+        <h3>One Eyed Designer</h3>
+      </Link>
       <div className="nav-menu-red">
         <ul>
           <li>

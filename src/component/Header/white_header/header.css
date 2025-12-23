@@ -1,4 +1,4 @@
-.white-header {
+.header {
     display: flex;
     justify-content: space-between;
     padding: 10px 40px;
@@ -6,21 +6,34 @@
     background: transparent;
     z-index: 2;
     position: relative;
+
+
+}
+
+.w-header-link {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+
+
 }
 
 .logo {
     display: flex;
     align-items: center;
     gap: 30px;
+
 }
 
 .logo img {
     width: 70px;
+
 }
 
 .logo h3 {
     font-size: 32px;
     font-family: "Koulen";
+
+
 }
 
 .nav-menu-red ul {
