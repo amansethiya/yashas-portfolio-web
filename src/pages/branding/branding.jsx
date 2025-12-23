@@ -11,7 +11,7 @@ const branding = () => {
     <div>
       <Header />
       <div className="back-branding">
-        <a href="/">
+        <a href="/yashas-portfolio-web">
           <img src={back} alt="" />
         </a>
         <h1>Branding</h1>
