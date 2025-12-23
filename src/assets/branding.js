@@ -16,7 +16,7 @@ const branding = [
     path: "/branding/crosia",
   },
   {
-    p_name: "Waiz",
+    p_name: "Vacation Village",
     p_desc: "Identity system, logo, photography, and brand world.",
     p_image: waiz_png,
     path: "",

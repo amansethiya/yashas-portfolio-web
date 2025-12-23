@@ -1,0 +1,36 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+    align-items: center;
+    background: transparent;
+    z-index: 2;
+    position: relative;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.logo img {
+    width: 70px;
+}
+
+.logo h3 {
+    font-size: 32px;
+    font-family: "Koulen";
+}
+
+.nav-menu-red ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.nav-menu-red ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}

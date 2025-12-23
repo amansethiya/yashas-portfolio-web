@@ -15,7 +15,7 @@ const projectforhome = [
     work: "Interface design, flows, and interaction work.",
     year: "Product Interfaces & Experience Design",
     image: image2,
-    path: "/branding",
+    path: "/uiux",
   },
   {
     name: "Case Studies",

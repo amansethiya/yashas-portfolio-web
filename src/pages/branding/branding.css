@@ -7,6 +7,24 @@
 
 }
 
+.back-branding {
+    display: flex;
+    padding-top: 60px;
+    margin-bottom: -20px;
+    align-items: center;
+    gap: 70px;
+    margin-left: 70px;
+}
+
+.back-branding img {
+    width: 50px;
+    vertical-align: middle;
+}
+
+.back-branding h1 {
+    font-size: 70px;
+}
+
 .brand-link {
     text-decoration: none;
     width: 100%;

@@ -4,10 +4,12 @@ import heroleft from "../../assets/heroleft.png";
 import heroright from "../../assets/yashas.png";
 import projectforhome from "../../assets/projectforhome.js";
 import { Link } from "react-router-dom";
+import Header from "../../component/Header/black_header/header.jsx";
 
 const hero = () => {
   return (
     <div>
+      <Header />
       <div className="hero">
         <div className="hero-head">
           <h2>

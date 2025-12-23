@@ -20,10 +20,12 @@ import lv2 from "../../../assets/crosiaimg/lv2.png";
 import lv3 from "../../../assets/crosiaimg/lv3.png";
 import pv from "../../../assets/crosiaimg/pv.png";
 import thankyou from "../../../assets/crosiaimg/thankyou.png";
+import Header from "../../../component/Header/red_header/header.jsx";
 
 const crosia = () => {
   return (
     <div className="crosia">
+      <Header />
       <div className="cover">
         <img src={hero_cover} alt="" />
       </div>

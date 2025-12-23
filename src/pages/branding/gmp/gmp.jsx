@@ -14,10 +14,12 @@ import grid from "../../../assets/gmpimg/grid.png";
 import leather from "../../../assets/gmpimg/leather.png";
 import gmpgold from "../../../assets/gmpimg/gmpgold.png";
 import thankyou from "../../../assets/gmpimg/thankyou.png";
+import Header from "../../../component/Header/white_header/header.jsx";
 
 const gmp = () => {
   return (
     <div className="gmp">
+      <Header />
       <div className="hero-gmp">
         <img src={gmpicon} alt="" />
         <h1>Glorious Maidens Pirate</h1>

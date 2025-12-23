@@ -1,0 +1,16 @@
+.uiux {
+    max-width: 100%;
+    text-align: center;
+}
+
+.uiux-img {
+    width: 1460px;
+    padding-top: 70px;
+}
+
+.uiux h1 {
+    text-align: start;
+    font-size: 70px;
+    font-weight: bold;
+    padding-left: 30px;
+}
