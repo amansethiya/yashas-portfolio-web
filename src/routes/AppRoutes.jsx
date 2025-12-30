@@ -9,6 +9,7 @@ import CaseStudies from "../pages/cases/cases";
 import Crosia from "../pages/branding/crosia/crosia";
 import GMP from "../pages/branding/gmp/gmp";
 import VacationV from "../pages/branding/vacationv/vacationv";
+import Exploring from "../component/exploring/exploring";
 
 const AppRoutes = () => {
   return (
@@ -23,7 +24,7 @@ const AppRoutes = () => {
         <Route path="branding/gmp" element={<GMP />} />
         <Route path="branding/vacationv" element={<VacationV />} />
       </Routes>
-
+      <Exploring />
       <Footer />
     </>
   );

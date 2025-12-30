@@ -11,6 +11,7 @@ body {
   background-color: #000000;
   color: rgb(255, 255, 255);
   font-family: 'helvetica', sans-serif;
+  overflow-x: hidden;
 }
 
 h1,
@@ -24,6 +25,7 @@ h6 {
 }
 
 p {
+  font-family: "helvetica";
   font-weight: 300;
 
 }
