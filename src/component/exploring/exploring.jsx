@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./exploring.css";
+import { Link } from "react-router-dom";
 
 import img1 from "../../assets/gmp2.png";
 import img2 from "../../assets/crosia2.png";
@@ -8,16 +9,13 @@ import img3 from "../../assets/vacation2.png";
 import righta from "../../assets/rarrow.png";
 import lefta from "../../assets/larrow.png";
 
-const data = [
-  { image: img1, link: "#" },
-  { image: img2, link: "#" },
-  { image: img3, link: "#" },
-  { image: img2, link: "#" },
-  { image: img3, link: "#" },
-  { image: img1, link: "#" },
+export const data = [
+  { id: 1, image: img1, link: "/branding/gmp#gmp" },
+  { id: 2, image: img2, link: "/branding/crosia#crosia" },
+  { id: 3, image: img3, link: "/branding/vacationv#vacationv" },
 ];
 
-const Exploring = () => {
+const Exploring = ({ images }) => {
   const [index, setIndex] = useState(0);
   const visible = 2;
 
@@ -34,9 +32,11 @@ const Exploring = () => {
             transform: `translateX(-${index * 50}%)`,
           }}
         >
-          {data.map((item, i) => (
-            <a key={i} href={item.link} className="slide">
-              <img src={item.image} alt="" />
+          {images.map((item, i) => (
+            <a key={i} className="slide">
+              <Link to={item.link}>
+                <img src={item.image} alt="" />
+              </Link>
             </a>
           ))}
         </div>

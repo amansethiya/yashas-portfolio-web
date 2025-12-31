@@ -17,6 +17,7 @@ import thankyou from "../../../assets/gmpimg/thankyou.png";
 import Header from "../../../component/Header/white_header/header.jsx";
 import { useLocation } from "react-router-dom";
 import { useEffect } from "react";
+import Exploring, { data } from "../../../component/exploring/exploring.jsx";
 
 const gmp = () => {
   const location = useLocation();
@@ -29,6 +30,9 @@ const gmp = () => {
       }
     }
   }, [location]);
+
+  const gmpImages = data.filter((img) => img.id !== 1);
+
   return (
     <div className="gmp" id="gmp">
       <Header />
@@ -102,7 +106,7 @@ const gmp = () => {
         <p>
           Alongside the brand identity, I contributed to the early product
           direction by guiding material choices and leather usage to align with
-          the brand’s rugged, long-lasting character. The focus was on
+          the brand's rugged, long-lasting character. The focus was on
           durability, texture, and honest aging ensuring the products reflected
           the same raw, artisanal values as the identity itself.
         </p>
@@ -112,6 +116,7 @@ const gmp = () => {
         <img src={thankyou} alt="" />
         <h1>THANKYOU</h1>
       </div>
+      <Exploring images={gmpImages} />
     </div>
   );
 };

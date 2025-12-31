@@ -24,6 +24,7 @@ import Header from "../../../component/Header/white_header/header.jsx";
 import tgbg from "../../../assets/crosiaimg/tgbg.png";
 import { useLocation } from "react-router-dom";
 import { useEffect } from "react";
+import Exploring, { data } from "../../../component/exploring/exploring.jsx";
 
 const crosia = () => {
   const location = useLocation();
@@ -36,6 +37,9 @@ const crosia = () => {
       }
     }
   }, [location]);
+
+  const crosiaImages = data.filter((img) => img.id !== 2);
+
   return (
     <div className="crosia" id="crosia">
       <Header />
@@ -135,6 +139,7 @@ const crosia = () => {
           </div>
         </div>
       </div>
+      <Exploring images={crosiaImages} />
     </div>
   );
 };

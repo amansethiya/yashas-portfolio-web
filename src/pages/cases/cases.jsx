@@ -7,6 +7,7 @@ import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import { useLocation } from "react-router-dom";
 import { useEffect } from "react";
+import Exploring, { data } from "../../component/exploring/exploring.jsx";
 
 const cases = () => {
   const navigate = useNavigate();
@@ -20,6 +21,9 @@ const cases = () => {
       }
     }
   }, [location]);
+
+  const casestudiesImages = data.filter((img) => img.id);
+
   return (
     <div className="uiux" id="casestudies">
       <Header />
@@ -30,6 +34,7 @@ const cases = () => {
       </div>
       <img src={uiuxcommingsoon} alt="" className="uiux-img" />
       <h1>Caes Studies Coming Soon</h1>
+      <Exploring images={casestudiesImages} />
     </div>
   );
 };

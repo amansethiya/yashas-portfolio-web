@@ -6,6 +6,7 @@ import back from "../../assets/wback.png";
 import { Link, useLocation } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import { useEffect } from "react";
+import Exploring, { data } from "../../component/exploring/exploring.jsx";
 
 const uiux = () => {
   const navigate = useNavigate();
@@ -19,6 +20,9 @@ const uiux = () => {
       }
     }
   }, [location]);
+
+  const uiuxImages = data.filter((img) => img.id);
+
   return (
     <div className="uiux" id="uiux">
       <Header />
@@ -29,6 +33,7 @@ const uiux = () => {
       </div>
       <img src={uiuxcommingsoon} alt="" className="uiux-img" />
       <h1>UI UX Coming Soon</h1>
+      <Exploring images={uiuxImages} />
     </div>
   );
 };

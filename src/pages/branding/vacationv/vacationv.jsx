@@ -10,6 +10,7 @@ import vd2_img from "../../../assets/vacationv/vd2.png";
 import vd4_img from "../../../assets/vacationv/vd4.png";
 import { useLocation } from "react-router-dom";
 import { useEffect } from "react";
+import Exploring, { data } from "../../../component/exploring/exploring.jsx";
 
 const Vacationv = () => {
   const location = useLocation();
@@ -22,6 +23,9 @@ const Vacationv = () => {
       }
     }
   }, [location]);
+
+  const vacationvImages = data.filter((img) => img.id !== 1);
+
   return (
     <div>
       <Header />
@@ -101,6 +105,7 @@ const Vacationv = () => {
           <h1 className="l1st">Work in progress</h1>
         </div>
       </div>
+      <Exploring images={vacationvImages} />
     </div>
   );
 };
