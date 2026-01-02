@@ -11,7 +11,7 @@ import vd4_img from "../../../assets/vacationv/vd4.png";
 import Exploring, { data } from "../../../component/exploring/exploring.jsx";
 
 const Vacationv = () => {
-  const vacationvImages = data.filter((img) => img.id !== 1);
+  const vacationvImages = data.filter((img) => img.id !== 3);
 
   return (
     <div>

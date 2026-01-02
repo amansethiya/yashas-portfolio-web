@@ -104,7 +104,9 @@ const gmp = () => {
         <img src={thankyou} alt="" />
         <h1>THANKYOU</h1>
       </div>
-      <Exploring images={gmpImages} />
+      <div className="exploring">
+        <Exploring images={gmpImages} />
+      </div>
     </div>
   );
 };
