@@ -68,7 +68,7 @@ const Exploring = ({ images }) => {
   }, [images]);
 
   return (
-    <section className="slider">
+    <section className="slider scroll-section">
       <h1 className="ce">Continue Exploring</h1>
 
       <div

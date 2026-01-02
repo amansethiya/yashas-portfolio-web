@@ -1,7 +1,6 @@
 @font-face {
   font-family: Helvetica;
   src: url('../public/fonts/helvetica/Helvetica.ttf');
-  font-weight: normal;
 }
 
 
@@ -24,6 +23,7 @@ h4,
 h5,
 h6 {
   font-family: "Helvetica";
+  font-weight: bold;
 
 }
 

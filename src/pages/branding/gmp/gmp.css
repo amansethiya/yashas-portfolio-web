@@ -11,17 +11,17 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 100px;
+    padding-top: 211px;
 }
 
 .hero-gmp img {
-    width: 287px;
+    width: 257px;
 }
 
 .hero-gmp h1 {
-    font-size: 130px;
+    font-size: 78px;
     font-family: "Jacquard 24";
-    letter-spacing: -6%;
+    letter-spacing: -4px;
     font-weight: normal;
     margin-top: 20px;
 }
@@ -243,7 +243,7 @@
 .scroll-section {
     opacity: 0;
     transform: translateY(60px);
-    transition: all 0.8s ease-out;
+    transition: all 0.3s ease-out;
 }
 
 .scroll-section.show {
