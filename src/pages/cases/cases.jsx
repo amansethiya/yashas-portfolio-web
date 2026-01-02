@@ -19,7 +19,7 @@ const cases = () => {
 
         <h1>Case Studies</h1>
       </div>
-      <img src={uiuxcommingsoon} alt="" className="uiux-img" />
+      <img src={uiuxcommingsoon} alt="" className="uiux-img scroll-section" />
       <h1>Caes Studies Coming Soon</h1>
       <Exploring images={casestudiesImages} />
     </div>

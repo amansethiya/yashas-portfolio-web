@@ -15,21 +15,23 @@ const hero = () => {
     if (location.hash) {
       const element = document.querySelector(location.hash);
       if (element) {
-        element.scrollIntoView({ behavior: "smooth" });
+        setTimeout(() => {
+          element.scrollIntoView({ behavior: "smooth" });
+        }, 100);
       }
     }
   }, [location]);
   return (
     <div>
       <Header />
-      <div className="hero">
-        <div className="hero-head">
+      <div className="hero ">
+        <div className="hero-head scroll-section">
           <h2>
             Hi I’m Yashas - Brand & UX Designer &mdash; I create identities and
             experiences that make brands clear, distinctive, and memorable.
           </h2>
         </div>
-        <div className="second-hero">
+        <div className="second-hero scroll-section">
           <div className="hero-left">
             <img src={heroleft} alt="" />
           </div>
@@ -46,13 +48,17 @@ const hero = () => {
       </div>
 
       <div className="projectforhome" id="work">
-        <div className="project-head">
+        <div className="project-head scroll-section">
           <h2>Projects</h2>
         </div>
 
         {projectforhome.map((item, index) => (
-          <Link to={item.path} key={index} className="project-item">
-            <div className="left-home-project">
+          <Link
+            to={item.path}
+            key={index}
+            className="project-item scroll-section"
+          >
+            <div className="left-home-project ">
               <h1>{item.name}</h1>
               <hr />
               <p>{item.work}</p>

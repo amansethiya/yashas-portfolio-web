@@ -23,7 +23,6 @@
     max-width: 100%;
     justify-content: center;
 
-
 }
 
 .hero-left {
@@ -50,6 +49,7 @@
 .hero-right img {
     transition: transform 0.1s ease;
     /* smooth animation */
+
 }
 
 .hero-right img:hover {
@@ -152,4 +152,15 @@
 .right-home-project:hover img {
     transform: scale(1.1);
 
+}
+
+.scroll-section {
+    opacity: 0;
+    transform: translateY(60px);
+    transition: all 0.8s ease-out;
+}
+
+.scroll-section.show {
+    opacity: 1;
+    transform: translateY(0);
 }

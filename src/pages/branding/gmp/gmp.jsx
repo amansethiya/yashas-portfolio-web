@@ -24,11 +24,11 @@ const gmp = () => {
   return (
     <div className="gmp" id="gmp">
       <Header />
-      <div className="hero-gmp">
+      <div className="hero-gmp scroll-section">
         <img src={gmpicon} alt="" />
         <h1>Glorious Maidens Pirate</h1>
       </div>
-      <div className="after-hero">
+      <div className="after-hero scroll-section">
         <div className="gmp-left">
           <img src={gmpimg} alt="" />
         </div>
@@ -48,7 +48,7 @@ const gmp = () => {
         </div>
       </div>
 
-      <div className="bgy-p">
+      <div className="bgy-p scroll-section">
         <p>
           Brand identity and visual world for a pirate-inspired leather goods
           label. Identity system and visual direction for an artisanal leather
@@ -56,7 +56,7 @@ const gmp = () => {
         </p>
       </div>
 
-      <div className="brand-direction">
+      <div className="brand-direction scroll-section">
         <h3>Brand Direction</h3>
         <p>
           Glorious Maidens Pirate is an artisanal leather goods brand rooted in
@@ -72,7 +72,7 @@ const gmp = () => {
           <img src={bd3} alt="" />
         </div>
       </div>
-      <div className="grid">
+      <div className="grid scroll-section">
         <h1>GRID</h1>
         <img src={grid} alt="" className="grid-img" />
         <p>
@@ -89,8 +89,8 @@ const gmp = () => {
           <img src={white3} alt="" className="white3-img" />
         </div>
       </div>
-      <div className="leather-gmp">
-        <img src={leather} alt="" className="leather-img" />
+      <div className="leather-gmp ">
+        <img src={leather} alt="" className="leather-img scroll-section" />
         <p>
           Alongside the brand identity, I contributed to the early product
           direction by guiding material choices and leather usage to align with
@@ -98,9 +98,9 @@ const gmp = () => {
           durability, texture, and honest aging ensuring the products reflected
           the same raw, artisanal values as the identity itself.
         </p>
-        <img src={gmpgold} alt="" className="gmp-gold" />
+        <img src={gmpgold} alt="" className="gmp-gold scroll-section" />
       </div>
-      <div className="thankyou-gmp">
+      <div className="thankyou-gmp scroll-section">
         <img src={thankyou} alt="" />
         <h1>THANKYOU</h1>
       </div>

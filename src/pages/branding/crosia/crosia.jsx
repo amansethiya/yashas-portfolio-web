@@ -29,19 +29,19 @@ const crosia = () => {
   return (
     <div className="crosia" id="crosia">
       <Header />
-      <div className="cover">
+      <div className="cover scroll-section">
         <img src={hero_cover} alt="" />
       </div>
 
       <div className="white-sec">
         <div className="sec1">
-          <img src={white_sec} alt="" className="sec1img1" />
-          <p className="sec1p1">
+          <img src={white_sec} alt="" className="sec1img1 scroll-section" />
+          <p className="sec1p1 scroll-section">
             Crosia is positioned as a sensual, editorial luxury brand built
             around elegance, intimacy, and bold typography. The identity focuses
             on contrast, flow, and expressive letterforms.
           </p>
-          <div className="color-group">
+          <div className="color-group scroll-section">
             {color.map((item, index) => (
               <div key={index} className="color-index">
                 <img src={item.c_img} alt="" />
@@ -49,26 +49,26 @@ const crosia = () => {
               </div>
             ))}
           </div>
-          <div className="sqimg">
+          <div className="sqimg scroll-section">
             <img src={sqrimg} alt="" />
           </div>
         </div>
         <div className="sec2">
-          <div className="camping-red">
+          <div className="camping-red scroll-section">
             <h1>CAMPAIGN RED</h1>
           </div>
-          <div className="camping-images">
+          <div className="camping-images scroll-section">
             <img src={camping1} alt="" />
             <img src={camping2} alt="" />
             <img src={camping3} alt="" />
           </div>
           <img src={tgbg} alt="" className="tgbg" />
-          <div className="typography">
+          <div className="typography scroll-section">
             <h1>Typography</h1>
             <h2>Rosehot</h2>
             <p>Custom ligature between "R" and "S" for soft movement</p>
           </div>
-          <div className="logomark">
+          <div className="logomark scroll-section">
             <h2>LOGO MARK</h2>
             <div className="logomark-images">
               <img src={lgm1} alt="" />
@@ -78,29 +78,29 @@ const crosia = () => {
             </div>
           </div>
           <div className="hooks">
-            <h2>hooks</h2>
+            <h2 className="scroll-section">hooks</h2>
             <div className="hookimages">
-              <img src={hookimg} alt="" className="hookimg" />
-              <img src={crg1} alt="" />
-              <img src={crg2} alt="" />
-              <img src={crg3} alt="" />
+              <img src={hookimg} alt="" className="hookimg scroll-section" />
+              <img src={crg1} alt="" className="scroll-section" />
+              <img src={crg2} alt="" className="scroll-section" />
+              <img src={crg3} alt="" className="scroll-section" />
             </div>
           </div>
         </div>
         <div className="sec3">
           <div className="logo-var">
-            <h2>logo variation</h2>
+            <h2 className="scroll-section">logo variation</h2>
             <div className="lv-images">
-              <img src={lv2} alt="" />
-              <img src={lv1} alt="" />
-              <img src={lv3} alt="" />
+              <img src={lv2} alt="" className="scroll-section" />
+              <img src={lv1} alt="" className="scroll-section" />
+              <img src={lv3} alt="" className="scroll-section" />
             </div>
           </div>
-          <div className="product-vision">
-            <img src={pv} alt="" />
-            <h2>Product Vision</h2>
+          <div className="product-vision ">
+            <img src={pv} alt="" className="scroll-section" />
+            <h2 className="scroll-section">Product Vision</h2>
 
-            <p>
+            <p className="scroll-section">
               Crosia is shaped as an emotionally driven, editorial luxury brand
               that elevates handcrafted crochet into refined, contemporary
               fashion. The identity balances sensuality with restraint, using
@@ -109,7 +109,7 @@ const crosia = () => {
               Every element is designed to express feeling first, allowing the
               craft to exist as quiet luxury rather than decoration.
             </p>
-            <p>
+            <p className="scroll-section">
               Crosia began as an exploration of how handcrafted crochet could
               exist within a luxury, editorial fashion world. I led the brand
               direction end-to-end defining the identity system, visual
@@ -119,7 +119,7 @@ const crosia = () => {
               product-led storytelling.
             </p>
           </div>
-          <div className="thankyou-c">
+          <div className="thankyou-c scroll-section">
             <img src={thankyou} alt="" />
             <h1>Thank You</h1>
           </div>

@@ -10,11 +10,11 @@ const about = () => {
     <div>
       <Header />
       <div className="about">
-        <h1 className="abt-heading">
+        <h1 className="abt-heading scroll-section">
           I’m a designer focused on building clear, intentional brand and
           product experiences.
         </h1>
-        <div className="hero-abt">
+        <div className="hero-abt scroll-section">
           <div className="left-abt">
             <p>
               My work sits at the intersection of branding, UX, and UI. I take
@@ -40,17 +40,19 @@ const about = () => {
           </div>
         </div>
         <div className="abt-sec2">
-          <h1>Where it started</h1>
-          <p>Before design became digital for me, it was physical.</p>
-          <p>
+          <h1 className="scroll-section">Where it started</h1>
+          <p className="scroll-section">
+            Before design became digital for me, it was physical.
+          </p>
+          <p className="scroll-section">
             There was a pause where I spent my time drawing. Paper, pencil,
             charcoal. The grain of the paper mattered. Pressure mattered.
             Mistakes stayed visible. I couldn’t clean things up or move fast.
             That slowness taught me how to look properly. How to build depth
             over time and stay with something even when it felt unresolved.
           </p>
-          <img src={work_abt} alt="" />
-          <h1>
+          <img src={work_abt} alt="" className="scroll-section" />
+          <h1 className="scroll-section">
             That way of working never left. It shows up in how I design today.
             I’m comfortable starting slow, staying with uncertainty, and letting
             things take shape through attention and care.

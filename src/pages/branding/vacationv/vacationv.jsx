@@ -17,12 +17,12 @@ const Vacationv = () => {
     <div>
       <Header />
       <div className="vacationv" id="vacationv">
-        <div className="vv-hero">
+        <div className="vv-hero scroll-section">
           <img src={hero_img} alt="" />
           <p>Real Estate Brand Experience & Marketing Design</p>
         </div>
         <div className="vv-sec2">
-          <img src={ii_img} alt="" className="vv2img1" />
+          <img src={ii_img} alt="" className="vv2img1 scroll-section" />
           <p className="vv2p1">
             Vacation Village is a luxury second-home real estate development
             located in Chikkamagaluru, Karnataka. <br /> The project blends
@@ -33,7 +33,7 @@ const Vacationv = () => {
             My role focused on supporting marketing visuals and defining
             early-stage visual consistency across digital touchpoints.
           </p>
-          <img src={iii_img} alt="" className="vv2img2" />
+          <img src={iii_img} alt="" className="vv2img2 scroll-section" />
           <p className="vv2p3">
             Vacation Village is positioned as more than a residential
             development. <br /> It is designed as a managed lifestyle
@@ -41,7 +41,7 @@ const Vacationv = () => {
             wellness experiences, and long-term asset value.
           </p>
         </div>
-        <div className="vvsec-3 vd">
+        <div className="vvsec-3 vd scroll-section">
           <h1 className="vd-title">Visual Direction</h1>
           <div className="vd-bgb">
             <div className="vdimgs">
@@ -63,7 +63,7 @@ const Vacationv = () => {
           </div>
         </div>
         <div className="vvsec-4">
-          <div className="det">
+          <div className="det scroll-section">
             <h1>Design & Experience Thinking</h1>
             <p>
               Vacation Village operates across multiple offerings including
@@ -76,7 +76,7 @@ const Vacationv = () => {
               developments.
             </p>
           </div>
-          <div className="fs">
+          <div className="fs scroll-section">
             <h1>Future Scope</h1>
             <p>
               With deeper involvement, this project could evolve into a
@@ -85,14 +85,16 @@ const Vacationv = () => {
               aligned with the brand’s growth roadmap.
             </p>
           </div>
-          <h1 className="l2nd">
+          <h1 className="l2nd scroll-section">
             This project sits at the intersection of brand experience, marketing
             design, and real-world execution.
           </h1>
           <h1 className="l1st">Work in progress</h1>
         </div>
       </div>
-      <Exploring images={vacationvImages} />
+      <div className="exploring">
+        <Exploring images={vacationvImages} />
+      </div>
     </div>
   );
 };

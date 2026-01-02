@@ -15,6 +15,8 @@ body {
   overflow-x: hidden;
 }
 
+
+
 h1,
 h2,
 h3,
@@ -29,4 +31,36 @@ p {
   font-family: "Helvetica";
   font-weight: 300;
 
+}
+
+.scroll-section {
+  opacity: 0;
+  transform: translateY(60px);
+  transition: all 0.8s ease-out;
+}
+
+.scroll-section.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.page-wrapper {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.page-wrapper.loaded {
+  opacity: 1;
+}
+
+/* Page load animation */
+.page-wrapper {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.8s ease-in-out;
+}
+
+.page-wrapper.loaded {
+  opacity: 1;
+  transform: translateY(0);
 }

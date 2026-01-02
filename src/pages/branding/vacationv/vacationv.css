@@ -199,3 +199,20 @@
 
 
 }
+
+.exploring {
+    background-color: black;
+    margin-top: -120px;
+}
+
+
+.scroll-section {
+    opacity: 0;
+    transform: translateY(60px);
+    transition: all 0.8s ease-out;
+}
+
+.scroll-section.show {
+    opacity: 1;
+    transform: translateY(0);
+}

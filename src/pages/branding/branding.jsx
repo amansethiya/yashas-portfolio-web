@@ -21,7 +21,7 @@ const branding = () => {
       <div className="branding">
         {brandingproject.map((item, index) => (
           <Link to={item.path} key={index} className="brand-link">
-            <div className="b-card">
+            <div className="b-card scroll-section">
               <img src={item.p_image} alt="" className="p_image" />
               <div className="brand-data">
                 <div className="b-left">
