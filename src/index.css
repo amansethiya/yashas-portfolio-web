@@ -15,7 +15,18 @@ body {
   font-family: "Helvetica";
 }
 
+@media (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+}
 
+
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
 
 
 .scroll-section {
@@ -48,4 +59,65 @@ body {
 .page-wrapper.loaded {
   opacity: 1;
   transform: translateY(0);
+}
+
+/* MOBILE OVERRIDES: keep laptop styles unchanged, only apply on small viewports */
+@media (max-width: 768px) {
+
+  /* Make large fixed-width containers fluid */
+  .studio-button,
+  .project-item,
+  .hero-left,
+  .hero-right,
+  .right-home-project,
+  .footer,
+  .project-item img,
+  .right-home-project img,
+  .hero-left img,
+  .hero-right img {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    box-sizing: border-box;
+  }
+
+  /* Reduce large gaps that cause overflow */
+  .project-item {
+    gap: 24px !important;
+    padding: 0 16px !important;
+    flex-direction: column !important;
+  }
+
+  .second-hero {
+    padding: 0 16px !important;
+  }
+
+  /* Ensure images never exceed their containers */
+  img,
+  video {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Default page padding to avoid horizontal scroll */
+  #root {
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+  }
+}
+
+@media (max-width: 480px) {
+
+  /* Tighter spacing on very small devices */
+  .studio-button h1,
+  .project-head,
+  .hero-head {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
+  .studio-button {
+    margin: 0 12px !important;
+  }
 }

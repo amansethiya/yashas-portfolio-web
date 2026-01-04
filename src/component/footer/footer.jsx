@@ -20,13 +20,9 @@ const footer = () => {
         </div>
       </div>
       <div className="footer">
-        <div className="f-heading">
-          <h1>Contact</h1>
-          <h1>Social</h1>
-          <h1>Explore</h1>
-        </div>
         <div className="f-data">
           <div className="f-left">
+            <h1>Contact</h1>
             <p>Bangalore, India</p>
             <p>
               <a
@@ -40,6 +36,7 @@ const footer = () => {
             </p>
           </div>
           <div className="f-center">
+            <h1>Social</h1>
             <a
               href="https://www.linkedin.com/in/yashas-k-248b68293/?trk=public-profile-join-page"
               className="f-link"
@@ -60,6 +57,7 @@ const footer = () => {
             </a>
           </div>
           <div className="f-right">
+            <h1>Explore</h1>
             <Link to={"/branding"} className="f-link">
               {" "}
               <p> Branding</p>

@@ -73,7 +73,7 @@
 }
 
 .sec1p1 {
-    width: 52%;
+    width: 642px;
     margin-top: 125px;
     text-align: center;
     font-size: 24px;
@@ -354,4 +354,329 @@
 .exploring-c {
     margin-top: -120px;
     margin-bottom: -110px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1024px) {
+
+    /* COVER */
+    .cover {
+        height: 1400px;
+    }
+
+    .cover img {
+        width: 420px;
+        margin-top: 260px;
+    }
+
+    .brand-text {
+        margin-top: -820px;
+        margin-left: 40px;
+        font-size: 26px;
+    }
+
+    /* SECTION 1 */
+    .sec1 {
+        padding: 0 60px;
+    }
+
+    .sec1img1 {
+        width: 100%;
+    }
+
+    .sec1p1 {
+        width: 75%;
+        font-size: 20px;
+        margin-top: 90px;
+    }
+
+    .color-group {
+        gap: 90px;
+        margin: 140px 0 0;
+    }
+
+    .sqimg {
+        margin-top: 180px;
+    }
+
+    .sqimg img {
+        width: 420px;
+    }
+
+    /* CAMPING */
+    .camping-images img {
+        width: 300px;
+        height: auto;
+    }
+
+    .tgbg {
+        margin-top: -260px;
+        margin-bottom: -360px;
+    }
+
+    /* TYPOGRAPHY */
+    .typography h1 {
+        font-size: 40px;
+    }
+
+    .typography h2 {
+        font-size: 56px;
+    }
+
+    .typography p {
+        font-size: 36px;
+        width: 90%;
+    }
+
+    /* LOGOMARK */
+    .logomark-images {
+        gap: 40px;
+        margin: 80px 40px 0;
+    }
+
+    .logomark-images img {
+        width: 150px;
+    }
+
+    /* HOOKS */
+    .hookimg {
+        width: 420px;
+    }
+
+    .hookimages {
+        margin: 0 40px;
+    }
+
+    /* SECTION 3 */
+    .logo-var h2 {
+        padding-top: 420px;
+        font-size: 40px;
+    }
+
+    .lv-images img {
+        width: 380px;
+    }
+
+    .product-vision img {
+        width: 520px;
+    }
+
+    .product-vision h2 {
+        font-size: 38px;
+        margin-top: -360px;
+        margin-bottom: 360px;
+    }
+
+    .product-vision p {
+        width: 85%;
+        font-size: 22px;
+    }
+
+    .thankyou-c h1 {
+        font-size: 54px;
+        margin-top: 760px;
+    }
+}
+
+
+@media (max-width: 768px) {
+
+    /* COVER */
+    .cover {
+        height: 900px;
+    }
+
+    .cover img {
+        width: 260px;
+        margin-top: 200px;
+    }
+
+    .brand-text {
+        margin-top: -520px;
+        margin-left: 20px;
+        font-size: 22px;
+    }
+
+    /* SECTION 1 */
+    .sec1 {
+        padding: 0 20px;
+    }
+
+    .sec1p1 {
+        width: 100%;
+        font-size: 18px;
+        margin-top: 60px;
+    }
+
+    .color-group {
+        flex-direction: column;
+        gap: 40px;
+        margin: 80px 0 0;
+    }
+
+    .color-group img {
+        width: 120px;
+        height: auto;
+    }
+
+    .sqimg {
+        margin-top: 100px;
+    }
+
+    .sqimg img {
+        width: 280px;
+    }
+
+    /* CAMPING */
+    .camping-red {
+        font-size: 30px;
+        margin-top: 120px;
+        margin-bottom: 60px;
+    }
+
+    .camping-images {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .camping-images img {
+        width: 100%;
+        height: auto;
+    }
+
+    .tgbg {
+        display: none;
+    }
+
+    /* TYPOGRAPHY */
+    .typography {
+        padding-top: 120px;
+    }
+
+    .typography h1 {
+        font-size: 32px;
+    }
+
+    .typography h2 {
+        font-size: 42px;
+    }
+
+    .typography p {
+        font-size: 24px;
+        width: 100%;
+        margin-top: -20px;
+    }
+
+    /* LOGOMARK */
+    .logomark h2 {
+        font-size: 32px;
+    }
+
+    .logomark-images {
+        flex-wrap: wrap;
+        gap: 30px;
+        margin: 60px 20px 0;
+    }
+
+    .logomark-images img {
+        width: 120px;
+    }
+
+    /* HOOKS */
+    .hookimg {
+        width: 100%;
+    }
+
+    .hookposter {
+        padding-top: 40px;
+    }
+
+    .hookimages {
+        margin: 0 20px;
+    }
+
+    /* SECTION 3 */
+    .sec3 {
+        margin-top: -200px;
+    }
+
+    .logo-var h2 {
+        padding-top: 260px;
+        font-size: 32px;
+    }
+
+    .lv-images {
+        gap: 60px;
+    }
+
+    .lv-images img {
+        width: 260px;
+    }
+
+    .product-vision {
+        padding-top: 80px;
+    }
+
+    .product-vision img {
+        width: 100%;
+    }
+
+    .product-vision h2 {
+        font-size: 28px;
+        margin-top: -220px;
+        margin-bottom: 220px;
+    }
+
+    .product-vision p {
+        width: 100%;
+        font-size: 18px;
+        margin-top: 40px;
+    }
+
+    /* THANK YOU */
+    .thankyou-c img {
+        position: relative;
+        margin-top: 60px;
+    }
+
+    .thankyou-c h1 {
+        font-size: 38px;
+        margin-top: 80px;
+    }
+
+    .exploring-c {
+        margin-top: -40px;
+        margin-bottom: -60px;
+    }
+}
+
+
+
+@media (max-width: 480px) {
+
+    .brand-text {
+        font-size: 20px;
+    }
+
+    .typography p {
+        font-size: 20px;
+    }
+
+    .product-vision h2 {
+        font-size: 24px;
+    }
+
+    .thankyou-c h1 {
+        font-size: 32px;
+    }
 }

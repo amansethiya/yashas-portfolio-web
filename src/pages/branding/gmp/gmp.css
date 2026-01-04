@@ -238,3 +238,276 @@
     background-color: black;
     margin-top: -120px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1024px) {
+
+    /* HERO */
+    .hero-gmp {
+        padding-top: 140px;
+    }
+
+    .hero-gmp img {
+        width: 200px;
+    }
+
+    .hero-gmp h1 {
+        font-size: 58px;
+    }
+
+    /* AFTER HERO */
+    .after-hero {
+        margin-top: 160px;
+        margin-left: 40px;
+        gap: 40px;
+    }
+
+    .gmp-left img {
+        width: 420px;
+    }
+
+    .color-right {
+        width: 420px;
+        height: auto;
+        margin-top: 40px;
+    }
+
+    .color-p {
+        margin-left: 60px;
+    }
+
+    .color-right img {
+        width: 120px;
+    }
+
+    /* YELLOW PILL TEXT */
+    .bgy-p p {
+        width: 85%;
+        font-size: 20px;
+    }
+
+    /* BRAND DIRECTION */
+    .brand-direction p {
+        width: 85%;
+        font-size: 20px;
+    }
+
+    .bd-images img {
+        width: 240px;
+    }
+
+    /* GRID */
+    .grid h1 {
+        font-size: 56px;
+    }
+
+    .grid-img {
+        width: 80%;
+    }
+
+    .grid p {
+        width: 85%;
+        font-size: 20px;
+    }
+
+    .penimg {
+        max-width: 420px;
+    }
+
+    .white3-img {
+        width: 360px;
+    }
+
+    /* LEATHER */
+    .leather-img {
+        width: 520px;
+    }
+
+    .leather-gmp p {
+        width: 85%;
+        font-size: 20px;
+    }
+
+    .gmp-gold {
+        width: 650px;
+    }
+
+    /* THANK YOU */
+    .thankyou-gmp img {
+        height: auto;
+        margin-top: -260px;
+    }
+
+    .thankyou-gmp h1 {
+        font-size: 52px;
+    }
+}
+
+
+
+@media (max-width: 768px) {
+
+    /* HERO */
+    .hero-gmp {
+        padding-top: 120px;
+    }
+
+    .hero-gmp img {
+        width: 160px;
+    }
+
+    .hero-gmp h1 {
+        font-size: 38px;
+        letter-spacing: -2px;
+        text-align: center;
+    }
+
+    /* AFTER HERO STACK */
+    .after-hero {
+        flex-direction: column;
+        margin-top: 120px;
+        margin-left: 0;
+        align-items: center;
+    }
+
+    .gmp-left img {
+        width: 100%;
+        max-width: 320px;
+    }
+
+    .color-right {
+        width: 100%;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 40px;
+    }
+
+    .color-p {
+        margin-left: 0;
+    }
+
+    .color-right img {
+        width: 100px;
+    }
+
+    /* YELLOW TEXT */
+    .bgy-p p {
+        width: 100%;
+        margin: 80px 20px 0;
+        font-size: 18px;
+    }
+
+    /* BRAND DIRECTION */
+    .brand-direction h3 {
+        margin-top: 90px;
+    }
+
+    .brand-direction p {
+        width: 100%;
+        font-size: 18px;
+        padding: 0 20px;
+    }
+
+    .bd-images {
+        flex-direction: column;
+        gap: 30px;
+        margin-top: 80px;
+    }
+
+    .bd-images img {
+        width: 100%;
+        max-width: 320px;
+    }
+
+    /* GRID */
+    .grid h1 {
+        font-size: 42px;
+    }
+
+    .grid-img {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .grid p {
+        width: 100%;
+        font-size: 18px;
+        padding: 0 20px;
+    }
+
+    .penimg {
+        max-width: 300px;
+    }
+
+    .white3-img {
+        width: 260px;
+        margin-top: -40px;
+    }
+
+    /* LEATHER */
+    .leather-img {
+        width: 100%;
+        max-width: 360px;
+        margin-top: 90px;
+    }
+
+    .leather-gmp p {
+        width: 100%;
+        font-size: 18px;
+        padding: 0 20px;
+    }
+
+    .gmp-gold {
+        width: 100%;
+        max-width: 420px;
+    }
+
+    /* THANK YOU */
+    .thankyou-gmp img {
+        position: relative;
+        height: auto;
+        margin-top: 40px;
+    }
+
+    .thankyou-gmp h1 {
+        font-size: 36px;
+        position: relative;
+        margin-top: -80px;
+    }
+
+    .exploring {
+        margin-top: -60px;
+    }
+}
+
+
+@media (max-width: 480px) {
+
+    .hero-gmp h1 {
+        font-size: 32px;
+    }
+
+    .grid h1 {
+        font-size: 34px;
+    }
+
+    .thankyou-gmp h1 {
+        font-size: 30px;
+    }
+}

@@ -1,7 +1,7 @@
 .vacationv {
     background-color: white;
     color: black;
-    margin-top: -150px;
+    margin-top: -165px;
 }
 
 .vv-hero {
@@ -202,4 +202,234 @@
 .exploring {
     background-color: black;
     margin-top: -120px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1024px) {
+
+    .vacationv {
+        margin-top: -100px;
+    }
+
+    /* HERO */
+    .vv-hero {
+        padding-top: 300px;
+    }
+
+    .vv-hero img {
+        width: 420px;
+    }
+
+    .vv-hero p {
+        font-size: 18px;
+    }
+
+    /* SECTION 2 */
+    .vv-sec2 {
+        margin-top: 200px;
+    }
+
+    .vv2img1 {
+        width: 100%;
+    }
+
+    .vv2p1 {
+        width: 85%;
+        font-size: 20px;
+    }
+
+    .vv2p2 {
+        width: 70%;
+        font-size: 20px;
+        margin-top: 120px;
+    }
+
+    .vv2p3 {
+        width: 70%;
+        font-size: 20px;
+    }
+
+    /* VISUAL DIRECTION */
+    .vd-title {
+        font-size: 34px;
+        margin-left: 40px;
+    }
+
+    .vd-bgb {
+        padding: 60px 100px;
+        background-position: center 200px;
+    }
+
+    .vdimgs {
+        gap: 40px;
+    }
+
+    .vdp1,
+    .vdp2 {
+        width: 85%;
+        font-size: 20px;
+    }
+
+    /* SECTION 4 */
+    .det,
+    .fs,
+    .l2nd {
+        width: 85%;
+    }
+
+    .det h1,
+    .fs h1,
+    .l2nd {
+        font-size: 34px;
+    }
+
+    .det p,
+    .fs p {
+        font-size: 20px;
+    }
+
+    .l1st {
+        width: 90%;
+        font-size: 34px;
+        margin-top: 180px;
+    }
+}
+
+
+
+@media (max-width: 768px) {
+
+    .vacationv {
+        margin-top: -60px;
+    }
+
+    /* HERO */
+    .vv-hero {
+        padding-top: 220px;
+    }
+
+    .vv-hero img {
+        width: 280px;
+    }
+
+    .vv-hero p {
+        font-size: 16px;
+        padding: 0 20px;
+    }
+
+    /* SECTION 2 */
+    .vv-sec2 {
+        margin-top: 140px;
+    }
+
+    .vv2p1,
+    .vv2p2,
+    .vv2p3 {
+        width: 100%;
+        font-size: 18px;
+        padding: 0 20px;
+    }
+
+    .vv2p2 {
+        margin-top: 80px;
+    }
+
+    .vv2img2 {
+        margin-top: 40px;
+    }
+
+    /* VISUAL DIRECTION */
+    .vd-title {
+        font-size: 28px;
+        margin-left: 20px;
+        margin-top: 140px;
+    }
+
+    .vd-bgb {
+        padding: 50px 20px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .vdimgs {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .vdp1,
+    .vdp2 {
+        width: 100%;
+        font-size: 18px;
+        padding: 0 20px;
+    }
+
+    /* SECTION 4 */
+    .vvsec-4 {
+        padding-top: 100px;
+    }
+
+    .det,
+    .fs {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .det h1,
+    .fs h1 {
+        font-size: 28px;
+    }
+
+    .det p,
+    .fs p {
+        font-size: 18px;
+    }
+
+    .l2nd {
+        width: 100%;
+        font-size: 26px;
+        padding: 0 20px;
+        margin-top: 80px;
+    }
+
+    .l1st {
+        width: 100%;
+        font-size: 26px;
+        margin-top: 140px;
+        padding: 0 20px 40px;
+    }
+}
+
+
+@media (max-width: 480px) {
+
+    .vv-hero img {
+        width: 240px;
+    }
+
+    .vd-title {
+        font-size: 24px;
+    }
+
+    .det h1,
+    .fs h1 {
+        font-size: 24px;
+    }
+
+    .l2nd,
+    .l1st {
+        font-size: 22px;
+    }
 }

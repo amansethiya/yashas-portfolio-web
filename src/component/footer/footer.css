@@ -22,11 +22,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 1153px;
+    width: 100%;
+    max-width: 1153px;
     cursor: pointer;
     background-color: rgba(65, 64, 64, 0.293);
     border-radius: 20px;
-
 
 }
 
@@ -61,23 +61,18 @@
     z-index: 10;
 }
 
-.f-heading {
-    display: flex;
-    justify-content: space-between;
-    border-bottom: 1px solid white;
-    padding-bottom: 9px;
-    text-align: center;
-}
-
-.f-heading h1 {
+.f-data h1 {
     font-size: 25px;
     font-weight: bold;
     letter-spacing: -0.5px;
+    border-bottom: 1px solid white;
+    width: 100%;
+    padding-bottom: 12px;
 }
 
 .f-data {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin-top: 18px;
     font-size: 20px;
     font-weight: 200;
@@ -87,15 +82,18 @@
 
 .f-left {
     text-align: left;
+    width: 33%;
 }
 
 .f-center {
     text-align: center;
-    margin-left: -80px;
+
+    width: 33%;
 }
 
 .f-right {
     text-align: right;
+    width: 33%;
 }
 
 .f-link {
@@ -109,4 +107,128 @@
 .f-link:hover {
     color: rgb(147, 147, 147);
 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1024px) {
+
+    /* STUDIO SECTION */
+    .studio {
+        margin-top: 100px;
+        gap: 50px;
+    }
+
+    .studio-button {
+        width: 90%;
+    }
+
+    .studio-button h1 {
+        font-size: 42px;
+        letter-spacing: -3px;
+    }
+
+    /* FOOTER */
+    .footer {
+        margin: 30px;
+        padding: 50px 50px;
+    }
+
+    .f-heading h1 {
+        font-size: 22px;
+    }
+
+    .f-data {
+        font-size: 18px;
+    }
+
+    .f-center {
+        margin-left: -40px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    /* STUDIO SECTION */
+    .studio {
+        margin-top: 80px;
+        gap: 40px;
+    }
+
+    .studio .arrow img {
+        width: 40px;
+    }
+
+    .studio-button {
+        width: 100%;
+        margin: 0 20px;
+    }
+
+    .studio-button h1 {
+        font-size: 32px;
+        letter-spacing: -2px;
+    }
+
+    /* FOOTER BOX */
+    .footer {
+        margin: 20px;
+        padding: 40px 25px;
+    }
+
+    /* HEADINGS STACK */
+    .f-heading {
+        flex-direction: column;
+        gap: 12px;
+        text-align: left;
+    }
+
+    .f-heading h1 {
+        font-size: 20px;
+    }
+
+    /* DATA STACK */
+    .f-data {
+        flex-direction: column;
+        gap: 30px;
+        margin-top: 30px;
+        font-size: 17px;
+    }
+
+    .f-left,
+    .f-center,
+    .f-right {
+        text-align: center;
+        margin-left: 0;
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 480px) {
+
+    .studio-button h1 {
+        font-size: 26px;
+    }
+
+    .footer {
+        padding: 30px 20px;
+    }
+
+    .f-data {
+        font-size: 16px;
+    }
 }

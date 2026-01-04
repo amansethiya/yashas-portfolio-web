@@ -122,3 +122,161 @@
     font-weight: 400;
     max-width: 990px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1024px) {
+
+    .about {
+        margin: 0 30px;
+    }
+
+    /* MAIN HEADING */
+    .abt-heading {
+        margin-top: 110px;
+        font-size: 52px;
+        letter-spacing: -2px;
+    }
+
+    /* HERO SECTION */
+    .hero-abt {
+        margin-top: 100px;
+        gap: 40px;
+    }
+
+    .left-abt {
+        width: 50%;
+        margin-left: 0;
+    }
+
+    .hero-abt p {
+        font-size: 26px;
+        width: 100%;
+    }
+
+    .right-abt {
+        width: 45%;
+        margin-top: 20px;
+    }
+
+    .right-abt img {
+        width: 420px;
+        max-width: 100%;
+    }
+
+    /* SECTION 2 */
+    .abt-sec2 {
+        margin-left: 0;
+    }
+
+    .abt-sec2 h1 {
+        font-size: 52px;
+        letter-spacing: -2px;
+    }
+
+    .abt-sec2 p {
+        font-size: 26px;
+    }
+
+    .abt-sec2 img {
+        width: 90%;
+        margin-top: 100px;
+        margin-bottom: 140px;
+    }
+}
+
+
+@media (max-width: 768px) {
+
+    .about {
+        margin: 0 20px;
+    }
+
+    /* MAIN HEADING */
+    .abt-heading {
+        margin-top: 90px;
+        font-size: 34px;
+        letter-spacing: -1.5px;
+    }
+
+    /* HERO SECTION STACK */
+    .hero-abt {
+        flex-direction: column;
+        margin-top: 70px;
+        gap: 40px;
+    }
+
+    .left-abt,
+    .right-abt {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .hero-abt p {
+        font-size: 20px;
+        width: 100%;
+        line-height: 1.5;
+    }
+
+    .right-abt img {
+        width: 320px;
+    }
+
+    .right-abt button {
+        font-size: 16px;
+        padding: 10px 30px;
+    }
+
+    /* SECTION 2 */
+    .abt-sec2 {
+        margin-left: 0;
+        margin-top: 60px;
+    }
+
+    .abt-sec2 h1 {
+        font-size: 34px;
+        letter-spacing: -1.5px;
+    }
+
+    .abt-sec2 p {
+        font-size: 20px;
+    }
+
+    .abt-sec2 img {
+        width: 100%;
+        margin-top: 70px;
+        margin-bottom: 100px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .abt-heading {
+        font-size: 30px;
+    }
+
+    .hero-abt p,
+    .abt-sec2 p {
+        font-size: 18px;
+    }
+
+    .abt-sec2 h1 {
+        font-size: 30px;
+    }
+
+    .right-abt img {
+        width: 260px;
+    }
+}
