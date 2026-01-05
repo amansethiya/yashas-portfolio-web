@@ -1,0 +1,159 @@
+.studio-page {
+    margin-left: 125px;
+    margin-right: 125px;
+}
+
+.Still-title {
+    margin-top: 140px;
+    font-size: 70px;
+    font-weight: bold;
+    letter-spacing: -3px;
+    color: #8A8A8A;
+    margin-left: 40px;
+}
+
+.Still-Photos {
+    display: flex;
+    gap: 20px;
+    max-width: 1190px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.column1,
+.column2,
+.column3,
+.column4 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Posters-title {
+    margin-top: 200px;
+    font-size: 70px;
+    font-weight: bold;
+    letter-spacing: -3px;
+    color: #8A8A8A;
+    margin-left: 40px;
+}
+
+.Posters {
+    display: flex;
+    gap: 20px;
+    max-width: 1190px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.Sketchbook-title {
+    margin-top: 200px;
+    font-size: 70px;
+    font-weight: bold;
+    letter-spacing: -3px;
+    color: #8A8A8A;
+    margin-left: 40px;
+}
+
+.sb-top {
+    display: flex;
+    gap: 20px;
+    max-width: 1190px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.col1,
+.col2,
+.col3,
+.col4 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Sketchbook img {
+    width: 100%;
+    height: auto;
+}
+
+.sb-bottom {
+    display: flex;
+    margin-top: 20px;
+    max-width: 232px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.Publication-title {
+    margin-top: 200px;
+    font-size: 70px;
+    font-weight: bold;
+    letter-spacing: -3px;
+    color: #8A8A8A;
+    margin-left: 40px;
+}
+
+.Publication {
+    display: flex;
+    max-width: 1190px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.studio-desc {
+    width: 1120px;
+    margin-top: 190px;
+    margin-left: 40px;
+    font-size: 40px;
+    letter-spacing: -1px;
+}
+
+.studio-exists {
+    margin-top: 40px;
+    margin-left: 40px;
+    font-size: 44px;
+    font-family: "Hina Mincho";
+    font-weight: 400;
+    letter-spacing: 2.5px;
+}
+
+@media (max-width: 768px) {
+    .studio-page {
+        margin-left: 20px;
+        margin-right: 20px;
+
+    }
+
+    .Still-title,
+    .Posters-title,
+    .Sketchbook-title,
+    .Publication-title {
+        font-size: 40px;
+        margin-left: 0;
+        margin-top: 100px;
+    }
+
+    .Still-Photos,
+    .Posters,
+    .sb-top,
+    .Publication {
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+    .studio-desc {
+        width: 100%;
+        font-size: 24px;
+        margin-left: 0;
+        margin-top: 100px;
+    }
+
+    .studio-exists {
+        font-size: 28px;
+        margin-left: 0;
+        margin-top: 20px;
+
+    }
+}

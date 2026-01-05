@@ -8,15 +8,18 @@ const subject = "Inquiry from website";
 
 const footer = () => {
   return (
-    <div>
+    <div className="stfo">
       <div className="studio">
         <div className="arrow">
           <img src={downarrow} alt="" />
         </div>
         <div className="studio-button">
           <hr />
+
           <img src={btnicon} alt="" />
-          <h1>THE STUDIO</h1>
+          <a href="/studio">
+            <h1>THE STUDIO</h1>
+          </a>
         </div>
       </div>
       <div className="footer">

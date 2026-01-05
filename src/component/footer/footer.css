@@ -37,6 +37,11 @@
     background-color: #E4E4E4;
 }
 
+.studio a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .studio-button img {
     width: 80px;
     margin-top: -38px;
@@ -128,17 +133,28 @@
 @media (max-width: 1024px) {
 
     /* STUDIO SECTION */
+    .stfo {
+        padding: 0 10px;
+    }
     .studio {
         margin-top: 100px;
         gap: 50px;
+
     }
 
     .studio-button {
         width: 90%;
     }
 
+    .studio-button img {
+        width: 60px;
+        margin-top: -30px;
+        margin-bottom: -10px;
+    }
+
     .studio-button h1 {
         font-size: 42px;
+
         letter-spacing: -3px;
     }
 

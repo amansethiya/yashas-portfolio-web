@@ -329,8 +329,8 @@
     }
 
     .vv-hero p {
-        font-size: 16px;
-        padding: 0 20px;
+        font-size: 12px;
+
     }
 
     /* SECTION 2 */
@@ -341,8 +341,8 @@
     .vv2p1,
     .vv2p2,
     .vv2p3 {
-        width: 100%;
-        font-size: 18px;
+        width: 85%;
+        font-size: 15px;
         padding: 0 20px;
     }
 
@@ -360,6 +360,8 @@
         margin-left: 20px;
         margin-top: 140px;
     }
+
+
 
     .vd-bgb {
         padding: 50px 20px;
@@ -386,7 +388,7 @@
 
     .det,
     .fs {
-        width: 100%;
+        width: 85%;
         ;
     }
 
@@ -402,14 +404,14 @@
     }
 
     .l2nd {
-        width: 100%;
+        width: 85%;
         font-size: 26px;
         padding: 0 20px;
         margin-top: 80px;
     }
 
     .l1st {
-        width: 100%;
+        width: 65%;
         font-size: 26px;
         margin-top: 140px;
         padding: 0 20px 40px;

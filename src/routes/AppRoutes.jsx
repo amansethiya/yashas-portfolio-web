@@ -10,6 +10,7 @@ import Crosia from "../pages/branding/crosia/crosia";
 import GMP from "../pages/branding/gmp/gmp";
 import VacationV from "../pages/branding/vacationv/vacationv";
 import Scrolltotop from "../component/scrolltotop";
+import Studio from "../pages/studio/studio";
 
 const AppRoutes = () => {
   return (
@@ -18,6 +19,7 @@ const AppRoutes = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path="/studio" element={<Studio />} />
         <Route path="/branding" element={<Branding />} />
         <Route path="/uiux" element={<UiUx />} />
         <Route path="/casestudies" element={<CaseStudies />} />
