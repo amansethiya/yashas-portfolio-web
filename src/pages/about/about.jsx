@@ -3,7 +3,7 @@ import "./about.css";
 import Header from "../../component/Header/black_header/header";
 import yash_abt from "../../assets/yashas.png";
 import work_abt from "../../assets/work-abt.png";
-import resume from "../../assets/resume.pdf";
+import resume from "../../../public/resume.pdf";
 
 const about = () => {
   const textRef = useRef(null);
@@ -53,7 +53,7 @@ const about = () => {
           </div>
           <div className="right-abt">
             <img src={yash_abt} alt="" />
-            <a href={resume} target="_blank" rel="noopener noreferrer">
+            <a href={resume} download>
               <button> Download Resume</button>
             </a>
           </div>

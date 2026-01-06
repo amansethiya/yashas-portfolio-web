@@ -4,7 +4,7 @@ import logo from "../../../assets/logo.png";
 import tog_b from "../../../assets/tog_b.svg";
 import clos_b from "../../../assets/clos_b.svg";
 import { Link } from "react-router-dom";
-import resume from "../../../assets/resume.pdf";
+import resume from "../../../../public/resume.pdf";
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
