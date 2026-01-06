@@ -11,6 +11,7 @@ import { useLocation } from "react-router-dom";
 
 const hero = () => {
   const location = useLocation();
+
   const textRef = useRef(null);
 
   useEffect(() => {
@@ -24,12 +25,31 @@ const hero = () => {
     }
   }, [location]);
 
+  useEffect(() => {
+    if (!textRef.current) return;
+
+    // prevent double execution
+    if (textRef.current.dataset.animated === "true") return;
+
+    const text = textRef.current.innerText;
+    const words = text.split(" ");
+
+    textRef.current.innerHTML = words
+      .map(
+        (word, i) =>
+          `<span style="animation-delay:${i * 0.2}s">${word}&nbsp;</span>`
+      )
+      .join("");
+
+    textRef.current.dataset.animated = "true";
+  }, []);
+
   return (
     <div>
       <Header />
       <div className="hero ">
         <div className="hero-head">
-          <h2 className="hero-title">
+          <h2 className="reveal-text" ref={textRef}>
             Hi I’m Yashas - Brand & UX Designer &mdash; I create identities and
             experiences that make brands clear, distinctive, and memorable.
           </h2>

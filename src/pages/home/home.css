@@ -6,19 +6,6 @@
 }
 
 
-.hero-title {
-    opacity: 0;
-    filter: blur(6px);
-    animation: blurReveal 1s ease forwards;
-}
-
-@keyframes blurReveal {
-    to {
-        opacity: 1;
-        filter: blur(0);
-    }
-}
-
 .hero-head {
     line-height: auto;
     align-items: self-start;
@@ -30,6 +17,26 @@
 }
 
 
+.reveal-text {
+    display: block;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.reveal-text span {
+    display: inline-block;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: revealWord 0.6s ease forwards;
+    will-change: transform, opacity;
+}
+
+@keyframes revealWord {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
 
 
 .second-hero {
