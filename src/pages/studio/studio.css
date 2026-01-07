@@ -212,41 +212,6 @@
     }
 }
 
-/* IMAGE MODAL (MOBILE ONLY) */
-/* IMAGE MODAL (MOBILE ONLY) */
-.img-modal {
-    position: fixed;
-    inset: 0;
-    background: rgba(0, 0, 0, 0.95);
-    max-height: max-content;
-    display: flex;
-    align-items: flex-start;
-    /* 🔥 TOP ALIGN */
-    justify-content: center;
-
-    padding-top: 60px;
-    /* space for close button */
-    overflow-y: auto;
-    /* 🔥 SCROLL IF IMAGE IS TALL */
-
-    z-index: 2147483647;
-}
-
-.img-modal-inner {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-
-}
-
-.img-modal img {
-    width: auto;
-    height: auto;
-    max-width: 92vw;
-    max-height: 92vh;
-    object-fit: contain;
-    display: block;
-}
 
 /* CLOSE BUTTON */
 .close-btn {
@@ -257,4 +222,47 @@
     color: #ffffff;
     cursor: pointer;
     z-index: 2147483647;
+}
+
+.studio-page img {
+    max-width: 100%;
+    display: block;
+    padding: 5px 0px;
+    border-radius: 20px;
+    transition: transform 0.5s;
+}
+
+.studio-page img:hover {
+    filter: opacity(.7);
+
+    transform: scale(1.09);
+}
+
+
+
+/* Ensure lightgallery controls are visible on mobile */
+@media (max-width: 768px) {
+
+
+    .lg-backdrop,
+    .lg-outer,
+    .lg-outer .lg-toolbar,
+    .lg-outer .lg-sub-html {
+        z-index: 2147483647 !important;
+    }
+
+    .lg-outer .lg-toolbar {
+        position: fixed !important;
+        top: env(safe-area-inset-top, 8px) !important;
+        right: env(safe-area-inset-right, 8px) !important;
+        padding-right: 8px;
+    }
+
+    .lg-outer .lg-toolbar .lg-close {
+        display: block !important;
+        opacity: 1 !important;
+        visibility: visible !important;
+        color: #fff !important;
+        font-size: 28px !important;
+    }
 }
