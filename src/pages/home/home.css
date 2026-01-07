@@ -25,16 +25,28 @@
 
 .reveal-text span {
     display: inline-block;
+    transition: 0.3s;
     opacity: 0;
-    transform: translateY(20px);
-    animation: revealWord 0.6s ease forwards;
+    transform: translate(200px);
+    animation: revealWord 0.9s ease-in-out forwards;
     will-change: transform, opacity;
+}
+
+.reveal-text span:hover {
+    transform: scale(1.05);
+    color: rgb(97, 97, 97);
+    cursor: pointer;
 }
 
 @keyframes revealWord {
     to {
         opacity: 1;
-        transform: translateY(0);
+        transform: translate(20);
+
+    }
+
+    hover {
+        transform: scale(1.05);
     }
 }
 

@@ -29,7 +29,7 @@ const about = () => {
     <div>
       <Header />
       <div className="about">
-        <h1 className="abt-heading reveal-text" ref={textRef}>
+        <h1 className="abt-heading reveal-text-abt" ref={textRef}>
           I’m a designer focused on building clear, intentional brand and
           product experiences.
         </h1>
