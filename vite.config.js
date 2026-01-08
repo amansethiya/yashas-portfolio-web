@@ -1,10 +1,7 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
-export default defineConfig(({ mode }) => ({
+export default defineConfig({
   plugins: [react()],
-  base:
-    mode === "client"
-      ? "/" // yashaskarne.github.io
-      : "/yashas-portfolio-web/", // amansethiya.github.io
-}));
+  base: "/", // ✅ ALWAYS root for this repo
+});
