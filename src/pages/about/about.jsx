@@ -53,7 +53,11 @@ const about = () => {
           </div>
           <div className="right-abt">
             <img src={yash_abt} alt="" />
-            <a href={resume} download>
+            <a
+              href="./resume.pdf"
+              download="Yashas_Resume.pdf"
+              rel="noopener noreferrer"
+            >
               <button> Download Resume</button>
             </a>
           </div>

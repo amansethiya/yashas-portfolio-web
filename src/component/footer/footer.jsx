@@ -13,14 +13,14 @@ const footer = () => {
         <div className="arrow">
           <img src={downarrow} alt="" />
         </div>
-        <div className="studio-button">
+
+        <Link to="/studio" className="studio-button">
           <hr />
 
           <img src={btnicon} alt="" />
-          <Link to="/studio">
-            <h1>THE STUDIO</h1>
-          </Link>
-        </div>
+
+          <h1>THE STUDIO</h1>
+        </Link>
       </div>
       <div className="footer">
         <div className="f-data">
