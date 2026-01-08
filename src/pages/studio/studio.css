@@ -132,10 +132,32 @@
     letter-spacing: 2.5px;
 }
 
+@media(max-width: 1280px) {
+    .studio-page {
+        margin-left: 75px;
+        margin-right: 75px;
+        overflow: hidden;
+    }
+
+    .Posters {
+        max-width: 100%;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px;
+    }
+
+    .Publication {
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+    }
+}
+
 @media(max-width: 1024px) {
     .studio-page {
         margin-left: 50px;
         margin-right: 50px;
+        overflow-x: hidden;
     }
 
     .Still-title,
@@ -147,15 +169,21 @@
         margin-top: 100px;
     }
 
-    .Posters img {
-        width: 23%;
-
+    .Posters {
+        display: grid;
+        max-width: 100%;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px;
+        row-gap: 10px;
     }
 
-    .Publication img {
-
-        width: 33%;
+    .Publication {
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
     }
+
+
 
     .studio-desc {
         width: 100%;
