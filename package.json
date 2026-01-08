@@ -3,14 +3,13 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://amansethiya.github.io/yashas-portfolio-web/",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview",
-    "deploy": "gh-pages -d dist"
-  },
+"scripts": {
+  "dev": "vite",
+  "build:client": "vite build --mode client",
+  "build:me": "vite build --mode me",
+  "preview": "vite preview",
+  "lint": "eslint ."
+},
   "dependencies": {
     "aos": "^2.3.4",
     "framer-motion": "^12.23.26",
