@@ -3,7 +3,7 @@ import "./footer.css";
 import downarrow from "../../assets/downarroe.png";
 import btnicon from "../../assets/logo.png";
 import { Link } from "react-router-dom";
-const emailAddress = "yashk8326@gmail.com";
+const emailAddress = "yashk.design9@gmail.com";
 const subject = "Inquiry from website";
 
 const footer = () => {
@@ -34,7 +34,7 @@ const footer = () => {
                 )}`}
                 className="f-link"
               >
-                yashk8326@gmail.com
+                {emailAddress}
               </a>
             </p>
           </div>
