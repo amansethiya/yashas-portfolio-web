@@ -41,7 +41,7 @@ const footer = () => {
           <div className="f-center">
             <h1>Social</h1>
             <a
-              href="https://www.linkedin.com/in/yashas-k-248b68293/?trk=public-profile-join-page"
+              href="https://www.linkedin.com/in/yashas-248b68293/"
               className="f-link"
             >
               <p>LinkedIn</p>
