@@ -3,7 +3,6 @@ import "./about.css";
 import Header from "../../component/Header/black_header/header";
 import yash_abt from "../../assets/yashas.png";
 import work_abt from "../../assets/work-abt.png";
-import resume from "../../../public/resume.pdf";
 
 const about = () => {
   const textRef = useRef(null);
