@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
 import "./exploring.css";
 import { Link } from "react-router-dom";
-
+import React from "react";
 import img1 from "../../assets/gmp2.png";
 import img2 from "../../assets/crosia2.png";
 import img3 from "../../assets/vacation2.png";
