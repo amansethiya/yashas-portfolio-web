@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./header.css";
+import React from "react";
 import logo from "../../../assets/logo.png";
 import tog_b from "../../../assets/tog_b.svg";
 import clos_b from "../../../assets/clos_b.svg";
