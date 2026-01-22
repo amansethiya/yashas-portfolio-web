@@ -1,5 +1,5 @@
 import { Routes, Route } from "react-router-dom";
-import React from "react";
+
 import Footer from "../component/footer/footer";
 import Home from "../pages/home/home";
 import About from "../pages/about/about";
@@ -11,6 +11,7 @@ import GMP from "../pages/branding/gmp/gmp";
 import VacationV from "../pages/branding/vacationv/vacationv";
 import Scrolltotop from "../component/scrolltotop";
 import Studio from "../pages/studio/studio";
+import React from "react";
 
 const AppRoutes = () => {
   return (
