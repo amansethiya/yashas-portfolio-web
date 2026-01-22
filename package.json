@@ -5,10 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build:client": "vite build --mode client",
-    "build:me": "vite build --mode me",
-    "deploy:client": "npm run build:client && gh-pages -d dist -b gh-temp -r https://github.com/yashaskarne/yashaskarne.github.io.git",
-    "deploy:me": "npm run build:me && gh-pages -d dist -b gh-temp -r https://github.com/amansethiya/yashas-portfolio-web.git",
+   "build": "vite build",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist",
     "preview": "vite preview",
     "lint": "eslint ."
   },
